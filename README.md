@@ -5,14 +5,6 @@ Los Angeles County is home to 9,719,765 people according to the United States Ce
 Figue 1: Alcohol Involved Crashes in 2023
 <Add Pie Chart> 
 
-plt.figure(figsize=(12, 8))
-sns.scatterplot(x='LONGITUDE', y='LATITUDE', data=df, alpha=0.5)
-plt.title('Crash Accident Distribution Across Los Angeles County')
-plt.xlabel('Longitude')
-plt.ylabel('Latitude')
-plt.grid(True)
-plt.show()
-
 
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
